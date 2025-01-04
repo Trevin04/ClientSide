@@ -1,11 +1,11 @@
 /* Header Section */
-.header {
+.nav {
     background-color: #262626;
     padding: 10px 0;
 }
 
 /* Header Container */
-.header-box {
+.nav-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +15,7 @@
 }
 
 /* Logo Styling */
-.header-logo {
+.nav-logo {
     font-weight: bolder;
     font-size: clamp(15px, 2vw, 25px); /* Responsive font size */
     display: flex;
@@ -24,23 +24,23 @@
 }
 
 /* Logo Image Styling */
-.header-logo-image {
+.nav-logo-image {
     width: 45px; /* Adjust as per your design */
     height: 36px; /* Adjust as per your design */
     margin-right: 10px; /* Space between logo and text */
     vertical-align: middle; /* Aligns the image with the text */
 }
 
-.header-logo-first {
+.nav-logo-first {
     color: #a4a4a4 ; /* Gray */
 }
 
-.header-logo-second {
+.nav-logo-second {
     color: #e0e0e0; /* White gray */
 }
 
 /* Navigation List */
-.header-list {
+.nav-list {
     list-style: none;
     display: flex;
     gap: 2.5rem; /* Adjusted spacing for better layout */
@@ -49,7 +49,7 @@
 }
 
 /* Navigation Item */
-.header-list-item {
+.nav-list-item {
     font-size: clamp(13px, 2vw, 16px); /* Responsive font size */
     padding: 5px 8px; /* Added horizontal padding for better click target */
     font-weight: bold;
@@ -58,7 +58,7 @@
     transition: all 0.3s ease; /* Smooth transitions */
 }
 
-.header-list-item:hover {
+.nav-list-item:hover {
     text-decoration: underline;
     transform: scale(1.1);
     cursor: pointer;

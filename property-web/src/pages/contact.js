@@ -27,6 +27,12 @@ export default function Contact() {
             className="form-input"
             placeholder="Enter your phone number"
             required
+            pattern="[0-9]*"
+            onKeyPress={(e) => {
+              if (!/[0-9]/.test(e.key)) {
+                e.preventDefault(); // Prevent non-numeric input
+              }
+            }}
           />
         </div>
 
