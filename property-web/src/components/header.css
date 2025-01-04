@@ -1,0 +1,73 @@
+/* Header Section */
+.header {
+    background-color: #262626;
+    padding: 10px 0;
+}
+
+/* Header Container */
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 72rem;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+/* Logo Styling */
+.header-logo {
+    font-weight: bolder;
+    font-size: clamp(15px, 2vw, 25px); /* Responsive font size */
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+/* Logo Image Styling */
+.header-logo-image {
+    width: 45px; /* Adjust as per your design */
+    height: 36px; /* Adjust as per your design */
+    margin-right: 10px; /* Space between logo and text */
+    vertical-align: middle; /* Aligns the image with the text */
+}
+
+.header-logo-first {
+    color: #a4a4a4 ; /* Gray */
+}
+
+.header-logo-second {
+    color: #e0e0e0; /* White gray */
+}
+
+/* Navigation List */
+.header-list {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem; /* Adjusted spacing for better layout */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Item */
+.header-list-item {
+    font-size: clamp(13px, 2vw, 16px); /* Responsive font size */
+    padding: 5px 8px; /* Added horizontal padding for better click target */
+    font-weight: bold;
+    text-decoration: none;
+    color: #e0e0e0; /* White Gray */
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+
+.header-list-item:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle background on hover */
+    border-radius: 5px; /* Softer rounded corners */
+}
+
+/* General Link Styling */
+.link-list {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+}

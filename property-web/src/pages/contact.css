@@ -1,0 +1,129 @@
+
+/* Contact Page Container */
+.contact-container {
+    max-width: 600px;
+    margin: 130px auto;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #f5f5f5, #e6e6e6); /* Subtle grey gradient */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Heading */
+.contact-heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #4d4d4d; /* Dark grey */
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 5px; /* Removed border-bottom */
+}
+
+
+
+/* Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Increased spacing for better readability */
+    width: 100%;
+}
+
+/* Form Group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.form-label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #666666; /* Medium grey */
+    transition: color 0.3s ease;
+}
+
+/* Labels Hover Effect */
+.form-group:hover .form-label {
+    color: #333333; /* Slightly darker grey */
+}
+
+/* Inputs */
+.form-input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #cccccc; /* Light grey border */
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: #f9f9f9; /* Soft grey background */
+    transition: all 0.3s ease;
+}
+
+/* Input Focus */
+.form-input:focus {
+    border-color: #a6a6a6; /* Medium grey border */
+    box-shadow: 0 2px 8px rgba(166, 166, 166, 0.2); /* Subtle grey glow */
+}
+
+/* Submit Button */
+.submit-button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(to right, #4d4d4d, #666666); /* Grey gradient */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Button Hover Effect */
+.submit-button:hover {
+    background: linear-gradient(to right, #666666, #4d4d4d); /* Reverse grey gradient */
+    box-shadow: 0 6px 12px rgba(102, 102, 102, 0.2); /* Slightly darker shadow */
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 15px;
+    }
+
+    .contact-heading {
+        font-size: 1.8rem;
+    }
+
+    .form-input {
+        font-size: 0.9rem;
+    }
+
+    .submit-button {
+        font-size: 0.9rem;
+    }
+}
