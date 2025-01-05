@@ -19,7 +19,7 @@ const Home = () => {
     },
     {
       title: 'Office Space',
-      prices: ['400,000LKR Upwards'],
+      prices: ['300,000LKR Upwards'],
       images: ['/photos/office1.jpg', '/photos/office2.jpg', '/photos/office3.jpg'],
     },
     {
@@ -71,7 +71,7 @@ const Home = () => {
           <div className="service-item">
             <FaHome size={50} />
             <h3>Residential Properties</h3>
-            <p>Find your dream home with us.</p>
+            <p>Find your dream place with us.</p>
           </div>
           <div className="service-item">
             <FaBuilding size={50} />
