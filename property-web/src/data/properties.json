@@ -12,6 +12,7 @@
       "picture": "photos/house1.jpg",
       "images": [
         "photos/house1.jpg",
+        "photos/house2a.jpg",
         "photos/house1a.jpeg",
         "photos/house1b.jpeg",
         "photos/house1c.jpg"
@@ -36,6 +37,7 @@
       "picture": "photos/house2.jpg",
       "images": [
         "photos/house2.jpg",
+        "photos/house1a.jpeg",
         "photos/house2a.jpg",
         "photos/house2b.jpg",
         "photos/house2c.jpg"
@@ -62,6 +64,7 @@
         "photos/villa1.jpeg",
         "photos/villa1a.jpg",
         "photos/villa1b.jpg",
+        "photos/villa2b.jpg",
         "photos/villa1c.jpg"
       ],
       "facilities": ["Private Pool", "Panoramic Views"],
@@ -85,6 +88,7 @@
       "images": [
         "photos/villa2.jpg",
         "photos/villa2a.jpg",
+        "photos/villa1b.jpg",
         "photos/villa2b.jpg",
         "photos/villa2c.jpg"
       ],
@@ -109,6 +113,7 @@
       "images": [
         "photos/office1.jpg",
         "photos/office1a.jpg",
+        "photos/office2a.png",
         "photos/office1b.jpg",
         "photos/office1c.jpg"
       ],
@@ -133,6 +138,7 @@
       "images": [
         "photos/office2.jpg",
         "photos/office2a.png",
+        "photos/office1a.jpg",
         "photos/office2b.jpg",
         "photos/office2c.jpg"
       ],
@@ -196,6 +202,7 @@
         "photos/apartment1.jpg",
         "photos/apartment1a.jpg",
         "photos/apartment1b.jpg",
+        "photos/apartment1c.jpg",
         "photos/house1c.jpg"
       ],
       "facilities": ["Gym", "Concierge Services"],
@@ -220,6 +227,7 @@
         "photos/apartment2.jpg",
         "photos/apartment2a.jpg",
         "photos/apartment2b.jpg",
+        "photos/apartment1c.jpg",
         "photos/house2c.jpg"
       ],
       "facilities": ["Balcony", "Allocated Parking"],
