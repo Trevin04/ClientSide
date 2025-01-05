@@ -307,7 +307,7 @@ button:hover {
 /* Favourites List Styling */
 .favourites-list {
   position: fixed;
-  top: 20px;
+  top: 100px;
   right: 20px;
   width: 300px;
   background-color: #ffffff;
@@ -364,7 +364,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center; /* Center text */
-
 }
 
 .favourites-content h3 {

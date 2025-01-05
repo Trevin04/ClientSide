@@ -9,7 +9,7 @@ const Home = () => {
   const propertyData = [
     {
       title: "Apartments",
-      prices: ["600,000LKR Upwards"],
+      prices: ["325,000LKR Upwards"],
       images: [
         "/photos/apartment1.jpg",
         "/photos/apartment2.jpg",
@@ -27,7 +27,7 @@ const Home = () => {
     },
     {
       title: "Office Space",
-      prices: ["300,000LKR Upwards"],
+      prices: ["550,000LKR Upwards"],
       images: [
         "/photos/office1.jpg",
         "/photos/office2.jpg",
@@ -36,7 +36,7 @@ const Home = () => {
     },
     {
       title: "Residential Houses",
-      prices: ["400,000LKR Upwards"],
+      prices: ["750,000LKR Upwards"],
       images: [
         "/photos/house1.jpg",
         "/photos/house2.jpg",
@@ -45,7 +45,7 @@ const Home = () => {
     },
     {
       title: "Prime Lands",
-      prices: ["100,000LKR Upwards"],
+      prices: ["300,000LKR Upwards"],
       images: ["/photos/land1.jpg", "/photos/land2.jpg", "/photos/land3.jpg"],
     },
   ];
