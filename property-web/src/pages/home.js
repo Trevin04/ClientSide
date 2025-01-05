@@ -1,36 +1,52 @@
-import React, { useState } from 'react';
-import './home.css';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import { FaHome, FaBuilding, FaMapMarkerAlt } from 'react-icons/fa';
+import React from "react"; // Remove { useState }
+import "./home.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { FaHome, FaBuilding, FaMapMarkerAlt } from "react-icons/fa";
 
 const Home = () => {
   const propertyData = [
     {
-      title: 'Apartments',
-      prices: ['600,000LKR Upwards'],
-      images: ['/photos/apartment1.jpg', '/photos/apartment2.jpg', '/photos/apartment3.jpg'],
+      title: "Apartments",
+      prices: ["600,000LKR Upwards"],
+      images: [
+        "/photos/apartment1.jpg",
+        "/photos/apartment2.jpg",
+        "/photos/apartment3.jpg",
+      ],
     },
     {
-      title: 'Modern Villa',
-      prices: ['900,000LKR Upwards'],
-      images: ['/photos/villa1.jpeg', './photos/villa2.jpg', './photos/villa3.jpg'],
+      title: "Modern Villa",
+      prices: ["900,000LKR Upwards"],
+      images: [
+        "/photos/villa1.jpeg",
+        "./photos/villa2.jpg",
+        "./photos/villa3.jpg",
+      ],
     },
     {
-      title: 'Office Space',
-      prices: ['300,000LKR Upwards'],
-      images: ['/photos/office1.jpg', '/photos/office2.jpg', '/photos/office3.jpg'],
+      title: "Office Space",
+      prices: ["300,000LKR Upwards"],
+      images: [
+        "/photos/office1.jpg",
+        "/photos/office2.jpg",
+        "/photos/office3.jpg",
+      ],
     },
     {
-      title: 'Residential Houses',
-      prices: ['400,000LKR Upwards'],
-      images: ['/photos/house1.jpg', '/photos/house2.jpg', '/photos/house3.png'],
+      title: "Residential Houses",
+      prices: ["400,000LKR Upwards"],
+      images: [
+        "/photos/house1.jpg",
+        "/photos/house2.jpg",
+        "/photos/house3.png",
+      ],
     },
     {
-      title: 'Prime Lands',
-      prices: ['100,000LKR Upwards'],
-      images: ['/photos/land1.jpg', '/photos/land2.jpg', '/photos/land3.jpg'],
+      title: "Prime Lands",
+      prices: ["100,000LKR Upwards"],
+      images: ["/photos/land1.jpg", "/photos/land2.jpg", "/photos/land3.jpg"],
     },
   ];
 
@@ -45,8 +61,8 @@ const Home = () => {
   };
 
   const scrollToFeaturedProperties = () => {
-    document.getElementById('featured-properties').scrollIntoView({
-      behavior: 'smooth',
+    document.getElementById("featured-properties").scrollIntoView({
+      behavior: "smooth",
     });
   };
 
@@ -97,7 +113,12 @@ const Home = () => {
               <p>{property.prices[0]}</p>
               <Slider {...settings}>
                 {property.images.map((image, idx) => (
-                  <img key={idx} src={image} alt={property.title} className="property-image" />
+                  <img
+                    key={idx}
+                    src={image}
+                    alt={property.title}
+                    className="property-image"
+                  />
                 ))}
               </Slider>
             </div>

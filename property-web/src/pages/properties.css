@@ -1,0 +1,399 @@
+/* General Styling */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Heading */
+.Search-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px 0;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+
+/* Search Container */
+.Search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+/* Form Styling */
+.Search-form {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.form-item {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #555;
+}
+
+select,
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+select:focus,
+input[type="date"]:focus {
+  outline: none;
+  border-color: #4d4d4d;
+  box-shadow: 0 0 8px rgba(77, 77, 77, 0.2);
+}
+
+.search-input {
+  margin-top: 5px;
+}
+
+.label2 {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 10px;
+  font-size: 1rem;
+  color: #fff;
+  background: linear-gradient(to right, #4d4d4d, #777777);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #333333, #555555);
+  transform: translateY(-2px);
+}
+
+/* Properties Listing Section */
+.Search-listing {
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.Search-listing h1 {
+  font-size: 1.8rem;
+  color: #4d4d4d;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Search-listing ul {
+  list-style-type: none;
+  padding: 10px;
+  margin-left: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px; /* Space between items */
+}
+
+.Search-listing li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Search-listing li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.property-thumbnail {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.property-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.property-content h2 {
+  font-size: 1.5rem;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.property-content p {
+  font-size: 1rem;
+  color: #555555;
+  margin-bottom: 10px;
+}
+
+.property-content strong {
+  display: block;
+  margin-top: 5px;
+  color: #4d4d4d;
+}
+
+.property-content .view-details-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.property-content .view-details-button:hover {
+  background: linear-gradient(to right, #0056b3, #003f8a);
+  transform: scale(1.05);
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 600px;
+  max-width: 90%;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #4d4d4d;
+}
+
+.property-detail-image {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.modal-close-button:hover {
+  color: #ff0000;
+}
+
+/* Responsive Design for Properties */
+@media (max-width: 768px) {
+  .form-item {
+    width: 100%;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+
+  .Search-listing ul {
+    grid-template-columns: 1fr; /* One column on smaller screens */
+  }
+
+  .Search-listing li {
+    padding: 10px;
+  }
+
+  .property-thumbnail {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Search-heading {
+    font-size: 1.5rem;
+  }
+
+  .property-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .property-content p {
+    font-size: 0.9rem;
+  }
+}
+
+.view-details-button {
+  margin-right: 0px; /* Add space specifically to the right of the "View Details" button */
+  margin-bottom: 10px;
+}
+
+/* Favourites List Styling */
+.favourites-list {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 10px;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.favourites-list h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333333;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Favourite Item Styling */
+.favourite-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+  justify-content: center; /* Center vertically */
+  text-align: center;
+  gap: 10px; /* Space between elements */
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.favourite-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Thumbnail Styling */
+.favourite-thumbnail {
+  width: 60px; /* Slightly larger size for clarity */
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Content Styling */
+.favourites-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center text */
+
+}
+
+.favourites-content h3 {
+  font-size: 1rem;
+  color: #333333;
+  margin: 0;
+  font-weight: bold;
+}
+
+.favourites-content p {
+  font-size: 0.9rem;
+  color: #666666;
+  margin: 5px 0 0;
+}
+
+/* Remove Button Styling */
+.favourites-remove-button {
+  background: linear-gradient(to right, #ff4d4d, #e63939);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.favourites-remove-button:hover {
+  background: linear-gradient(to right, #e63939, #cc0000);
+  transform: scale(1.05);
+}

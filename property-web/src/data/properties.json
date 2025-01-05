@@ -1,0 +1,244 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "price": 750000,
+      "tenure": "Freehold",
+      "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London...",
+      "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+      "picture": "photos/house1.jpg",
+      "images": [
+        "photos/house1.jpg",
+        "photos/house1a.jpg",
+        "photos/house1b.jpg",
+        "photos/house1c.jpg"
+      ],
+      "facilities": ["Garden", "Garage"],
+      "url": "properties/prop1.html",
+      "added": {
+        "month": "October",
+        "day": 12,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop2",
+      "type": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "price": 1200000,
+      "tenure": "Freehold",
+      "description": "This spacious detached home features four bedrooms, three bathrooms, and a large open-plan kitchen/dining area...",
+      "location": "Station Road, Chislehurst BR7",
+      "picture": "photos/house2.jpg",
+      "images": [
+        "photos/house2.jpg",
+        "photos/house2a.jpg",
+        "photos/house2b.jpg",
+        "photos/house2c.jpg"
+      ],
+      "facilities": ["Swimming Pool", "Driveway"],
+      "url": "properties/prop3.html",
+      "added": {
+        "month": "July",
+        "day": 10,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop3",
+      "type": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "price": 1200000,
+      "tenure": "Freehold",
+      "description": "An exquisite five-bedroom villa featuring a luxurious design, private swimming pool, and panoramic views...",
+      "location": "Hilltop Avenue, Colombo BR6",
+      "picture": "photos/villa1.jpeg",
+      "images": [
+        "photos/villa1.jpeg",
+        "photos/villa1a.jpg",
+        "photos/villa1b.jpg",
+        "photos/villa1c.jpg"
+      ],
+      "facilities": ["Private Pool", "Panoramic Views"],
+      "url": "properties/villa2.html",
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop4",
+      "type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "price": 900000,
+      "tenure": "Freehold",
+      "description": "A luxurious four-bedroom villa with a private swimming pool and a landscaped garden...",
+      "location": "Seaview Drive, Colombo BR2",
+      "picture": "photos/villa2.jpg",
+      "images": [
+        "photos/villa2.jpg",
+        "photos/villa2a.jpg",
+        "photos/villa2b.jpg",
+        "photos/villa2c.jpg"
+      ],
+      "facilities": ["Private Pool", "Landscaped Garden"],
+      "url": "properties/villa1.html",
+      "added": {
+        "month": "March",
+        "day": 25,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop5",
+      "type": "Office Space",
+      "bedrooms": 0,
+      "bathrooms": 2,
+      "price": 550000,
+      "tenure": "Leasehold",
+      "description": "Modern office space located in the heart of the city, with high-speed internet, meeting rooms, and parking facilities...",
+      "location": "Business Avenue, Colombo BR8",
+      "picture": "photos/office1.jpg",
+      "images": [
+        "photos/office1.jpg",
+        "photos/office1a.jpg",
+        "photos/office1b.jpg",
+        "photos/office1c.jpg"
+      ],
+      "facilities": ["High-Speed Internet", "Meeting Rooms", "Parking"],
+      "url": "properties/office1.html",
+      "added": {
+        "month": "June",
+        "day": 15,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop6",
+      "type": "Office Space",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "price": 675000,
+      "tenure": "Freehold",
+      "description": "Spacious commercial office space with open-plan seating, break rooms, and conference facilities...",
+      "location": "Elm Road, Colombo DA6",
+      "picture": "photos/office2.jpg",
+      "images": [
+        "photos/office2.jpg",
+        "photos/office2a.jpg",
+        "photos/office2b.jpg",
+        "photos/office2c.jpg"
+      ],
+      "facilities": ["Open-Plan Seating", "Conference Rooms", "Break Rooms"],
+      "url": "properties/office2.html",
+      "added": {
+        "month": "January",
+        "day": 20,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop7",
+      "type": "Land",
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "price": 300000,
+      "tenure": "Freehold",
+      "description": "Prime development land measuring 0.5 acres, suitable for residential or commercial projects...",
+      "location": "Green Lane, Sidcup DA14",
+      "picture": "photos/land1.jpg",
+      "images": [
+        "photos/land1.jpg",
+        "photos/land1a.jpg",
+        "photos/land1b.jpg",
+        "photos/land1c.jpg"
+      ],
+      "facilities": ["Water Available", "Electricity Available"],
+      "url": "properties/prop7.html",
+      "added": {
+        "month": "August",
+        "day": 5,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop8",
+      "type": "Land",
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "price": 500000,
+      "tenure": "Freehold",
+      "description": "1-acre plot of land with approved planning permission for a detached home...",
+      "location": "Kings Road, Beckenham BR3",
+      "picture": "photos/land2.jpg",
+      "images": [
+        "photos/land2.jpg",
+        "photos/land2a.jpg",
+        "photos/land2b.jpg",
+        "photos/land2c.jpg"
+      ],
+      "facilities": ["Planning Permission", "Electricity Available"],
+      "url": "properties/prop8.html",
+      "added": {
+        "month": "November",
+        "day": 15,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop9",
+      "type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "price": 325000,
+      "tenure": "Leasehold",
+      "description": "A stylish one-bedroom apartment in a modern development with concierge services and a gym...",
+      "location": "Park View Apartments, Bromley BR1",
+      "picture": "photos/apartment1.jpg",
+      "images": [
+        "photos/apartment1.jpg",
+        "photos/apartment1a.jpg",
+        "photos/apartment1b.jpg",
+        "photos/apartment1c.jpg"
+      ],
+      "facilities": ["Gym", "Concierge Services"],
+      "url": "properties/prop9.html",
+      "added": {
+        "month": "April",
+        "day": 18,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop10",
+      "type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "price": 475000,
+      "tenure": "Leasehold",
+      "description": "A bright two-bedroom apartment with a balcony and allocated parking, close to public transport...",
+      "location": "Ravensbourne Road, Bromley BR1",
+      "picture": "photos/apartment2.jpg",
+      "images": [
+        "photos/apartment2.jpg",
+        "photos/apartment2a.jpg",
+        "photos/apartment2b.jpg",
+        "photos/apartment2c.jpg"
+      ],
+      "facilities": ["Balcony", "Allocated Parking"],
+      "url": "properties/prop10.html",
+      "added": {
+        "month": "February",
+        "day": 8,
+        "year": 2024
+      }
+    }
+  ]
+}

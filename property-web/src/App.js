@@ -1,10 +1,8 @@
-import { Routes, Route, BrowserRouter} from 'react-router-dom';
-import Navbar from './components/navbar';
-import Home from './pages/home';
-import Buy from './pages/buy';
-import Contact from './pages/contact';
-import Search from './pages/search';
-
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Navbar from "./components/navbar";
+import Home from "./pages/home";
+import Contact from "./pages/contact";
+import Properties from "./pages/properties";
 
 export default function App() {
   return (
@@ -12,10 +10,9 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/buy" element={<Buy />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path='/search' element={<Search />} />
+        <Route path="/properties" element={<Properties />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
